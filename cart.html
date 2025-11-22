@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Veggies Store - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="payment.html">Payment</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Items in Your Cart</h2>
+        <div class="cart-item">
+            <img src="https://via.placeholder.com/100x100?text=Tomatoes" alt="Tomatoes">
+            <div>
+                <h3>Tomatoes</h3>
+                <p>$2.99 per lb</p>
+            </div>
+            <button>Remove</button>
+        </div>
+        <div class="cart-item">
+            <img src="https://via.placeholder.com/100x100?text=Carrots" alt="Carrots">
+            <div>
+                <h3>Carrots</h3>
+                <p>$1.49 per lb</p>
+            </div>
+            <button>Remove</button>
+        </div>
+        <p><strong>Total: $4.48</strong></p>
+        <button onclick="window.location.href='payment.html'">Proceed to Payment</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Fresh Veggies Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
